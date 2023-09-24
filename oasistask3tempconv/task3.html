@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="tempconv">
+        <h2 class="heading" style="text-align: center;font-size:30px;">Temprature Converter Program</h2>
+        <br>
+        <input type="text" name="" id="value" placeholder="Enter a value, Ex. 0" class="inp" style="width: auto;height: 50px;text-align:center;align-items:center;border: 2px solid black;
+        border-radius:20px;font-size:30px;font-weight:bolder;margin-left:120px">
+        <span id="noValue" style="color: red;"></span>
+        <br><br><br>
+        <p class="style">Select the unit to convert in</p>
+        <br>
+        <div class="button">
+            <input type="radio" name="unit" id="celsius" class="cel" style="border: 1px solid black;">Celsius
+            <br>
+            <input type="radio" name="unit" id="fahrenheit" class="cel">Fahrenheit
+            <br>
+        </div>
+       
+        <span id="noUnit" style="color: red;"></span>
+        <br><br>
+        <button id="convert" class="convert">Convert</button>
+        <br>
+        <br>
+        <p id="result"></p>
+    </div>
+    
+    <script src="./task3.js"></script>
+</body>
+</html>
